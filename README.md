@@ -7,8 +7,8 @@ In order to add your new token to the Tangent DEX (exchange.tangent.bar), you ne
  1. Fork the repo and then clone the forked repository.
  2. Create your branch from main.
  3. Make your changes:
-  3.1. Create a folder with your token id in the name. (Example 0.0.000000)
-  3.2. Add info.json and logo file to the created folder. 
+    3.1. Create a folder with your token id in the name. (Example 0.0.000000)
+    3.2. Add info.json and logo file to the created folder. 
 
 info.json example
 ```
