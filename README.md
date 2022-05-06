@@ -10,7 +10,7 @@ In order to add your new token to the Tangent DEX (exchange.tangent.bar), you ne
     1. Create a folder with your token id in the name. (Example 0.0.000000)
     2. Add info.json and logo file to the created folder. 
 
-Supported logo file formats - .svg or .png (high resolution).
+Supported logo file formats - logo.svg or logo.png (high resolution).
 
 info.json example
 ```
