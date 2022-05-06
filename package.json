@@ -1,0 +1,10 @@
+{
+  "name": "hederaTokenLogo",
+  "version": "1.0.0",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "glob": "^7.2.0",
+    "p-iteration": "^1.1.8"
+  }
+}
