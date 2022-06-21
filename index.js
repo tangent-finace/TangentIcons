@@ -1,8 +1,11 @@
 require('dotenv').config();
 const Getter = require('./Controllers/GetterTokens')
 const express = require('express')
+var cors = require('cors')
 const app = express()
 const port = 3000
+app.use(cors())
+
 app.use('/Tokens', express.static(__dirname + '/Tokens'));
 
 Getter.getAll().then().catch()
@@ -18,6 +21,7 @@ app.get('/Tokens/:id/logo', (req, res) => {
     if (logo.logo) {
         res.sendFile(logo.logo.replace(process.env.SITE_URL, __dirname + '/'))
     } else {
+        res.header('default', 'true');
         res.sendFile(__dirname + '/Tokens/default-asset-icon.svg')
 
     }
