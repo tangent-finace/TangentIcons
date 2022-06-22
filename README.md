@@ -17,7 +17,7 @@ info.json example
 {
   "name": "USD Coin",
   "ticker": "USDC",
-  "memo": "By using USDC on Hedera, applications can expect high transaction scalability, 3-second settlement times, and low, predictable transaction fees.\n\n"
+  "memo": "By using USDC on Hedera, applications can expect high transaction scalability, 3-second settlement times, and low, predictable transaction fees."
 } 
 ```
 
